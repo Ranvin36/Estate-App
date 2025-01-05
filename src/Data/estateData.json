@@ -1,0 +1,148 @@
+{
+    "estates": [
+        {
+            "id": 1,
+            "name": "Luxury Family Home",
+            "description": "A spacious luxury home located in a quiet neighborhood, perfect for family living.",
+            "longDescription": "This luxury family home is nestled in a serene and affluent neighborhood, offering a perfect blend of comfort and elegance. Featuring five large bedrooms, a fully equipped modern kitchen, and a spacious living area with large windows that let in plenty of natural light. The house includes a private garden and a two-car garage, making it ideal for families seeking both indoor and outdoor living spaces. Nearby, you'll find reputable schools, parks, and shopping centers, making it an ideal location for families. This property offers both privacy and convenience, with easy access to main roads and public transport.",
+            "type": "house",
+            "price": 4500000,
+            "bedrooms": 5,
+            "date": "2024-01-01",
+            "coordinates": {
+                "latitude": 51.4064,
+                "longitude": -0.0219
+            },
+            "images": [
+                "https://images.prop24.com/234263375",
+                "https://images.squarespace-cdn.com/content/v1/5b105551b27e39cee568415e/1548512650475-T1743KOPT6CBGB3343XQ/63539904.jpg?format=1000w",
+                "https://www.decorilla.com/online-decorating/wp-content/uploads/2021/07/luxury-home-decor-in-a-lounge-and-kitchen-island.jpg",
+                "https://us.images.westend61.de/0000838688pw/modern-luxury-home-showcase-interior-living-room-with-ocean-view-HOXF02125.jpg",
+                "https://st.hzcdn.com/simgs/pictures/living-rooms/luxury-family-home-fishpools-furniture-store-and-interior-designers-img~1d7175170ae9cc37_4-1084-1-b361565.jpg"
+            ],
+            "thumbnail": "images/1/thumbnail.jpeg",
+            "postcode": "BR1",
+            "floor_plan":"images/1/floor_plan.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Modern Apartment",
+            "description": "A stylish apartment in the city center with great amenities and easy access to transport.",
+            "longDescription": "This modern apartment is a perfect choice for city dwellers who seek convenience and style. Located in the bustling city center, it offers three spacious bedrooms, a sleek open-plan kitchen, and a cozy living area. The apartment is part of a well-maintained building with state-of-the-art amenities, including a fitness center, a rooftop terrace, and a concierge service. Residents will enjoy the convenience of being within walking distance of shopping centers, restaurants, and public transport hubs. The property is designed to provide both comfort and functionality, making it ideal for young professionals and families alike.",
+            "type": "flat",
+            "price": 3000000,
+            "bedrooms": 3,
+            "date": "2024-02-15",
+            "coordinates": {
+                "latitude": 51.5202,
+                "longitude": -0.1321
+            },
+            "postcode": "NW1",
+            "images": [
+                "https://cdn.archilovers.com/projects/edd71e74-115b-4bfd-b049-745822f78e1b.jpg",
+                "https://images.squarespace-cdn.com/content/v1/5b105551b27e39cee568415e/1548512650475-T1743KOPT6CBGB3343XQ/63539904.jpg?format=1000w",
+                "https://www.decorilla.com/online-decorating/wp-content/uploads/2021/07/luxury-home-decor-in-a-lounge-and-kitchen-island.jpg",
+                "https://us.images.westend61.de/0000838688pw/modern-luxury-home-showcase-interior-living-room-with-ocean-view-HOXF02125.jpg",
+                "https://st.hzcdn.com/simgs/pictures/living-rooms/luxury-family-home-fishpools-furniture-store-and-interior-designers-img~1d7175170ae9cc37_4-1084-1-b361565.jpg"
+            ],
+            "floor_plan":"images/2/floor_plan.jpg",
+            "thumbnail": "images/2/thumbnail.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Cozy Cottage",
+            "description": "A charming cottage perfect for weekend getaways, surrounded by nature.",
+            "longDescription": "This charming two-bedroom cottage offers a perfect retreat for those seeking a peaceful and relaxing escape from the hustle and bustle of city life. Surrounded by lush greenery and scenic landscapes, this property is ideal for weekend getaways or even permanent countryside living. The interior features a rustic design with wooden beams, a stone fireplace, and a cozy kitchen. The large outdoor space includes a garden and a patio, perfect for enjoying nature and hosting outdoor gatherings. This property is a hidden gem for those who appreciate tranquility and nature.",
+            "type": "house",
+            "price": 1200000,
+            "bedrooms": 2,
+            "date": "2023-12-10",
+            "postcode": "BR2",
+            "coordinates": {
+                "latitude": 51.4084,
+                "longitude": -0.1157
+            },
+            "images": [
+                "https://st.hzcdn.com/simgs/e1817d4f02fbf7ad_14-0114/home-design.jpg",
+                "https://images.squarespace-cdn.com/content/v1/5b105551b27e39cee568415e/1548512650475-T1743KOPT6CBGB3343XQ/63539904.jpg?format=1000w",
+                "https://www.decorilla.com/online-decorating/wp-content/uploads/2021/07/luxury-home-decor-in-a-lounge-and-kitchen-island.jpg",
+                "https://us.images.westend61.de/0000838688pw/modern-luxury-home-showcase-interior-living-room-with-ocean-view-HOXF02125.jpg",
+                "https://st.hzcdn.com/simgs/pictures/living-rooms/luxury-family-home-fishpools-furniture-store-and-interior-designers-img~1d7175170ae9cc37_4-1084-1-b361565.jpg"
+            ],
+            "floor_plan":"images/3/floor_plan.jpg",
+            "thumbnail": "images/3/thumbnail.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Spacious Loft",
+            "description": "An open-plan loft with stunning views of the city, ideal for urban living.",
+            "longDescription": "This spacious loft apartment boasts a contemporary open-plan layout with high ceilings and large windows that offer breathtaking views of the city skyline. The property features a modern kitchen with high-end appliances, a stylish bathroom, and a spacious bedroom. The loft's industrial design, with exposed brick walls and metal accents, adds character and charm. Located in a vibrant neighborhood, this property is ideal for urban professionals who value both style and convenience. The area is known for its lively cafes, boutique shops, and cultural attractions.",
+            "type": "flat",
+            "price": 2500000,
+            "bedrooms": 1,
+            "date": "2024-03-05",
+            "coordinates": {
+                "latitude": 51.5223,
+                "longitude": -0.0827
+            },
+            "thumbnail": "images/4/thumbnail.jpg",
+            "floor_plan":"images/4/floor_plan.jpg",
+            "images": [
+                "https://zameenblog.s3.amazonaws.com/blog/wp-content/uploads/2022/11/Loft-Apartment-Cover.jpg",
+                "https://images.squarespace-cdn.com/content/v1/5b105551b27e39cee568415e/1548512650475-T1743KOPT6CBGB3343XQ/63539904.jpg?format=1000w",
+                "https://www.decorilla.com/online-decorating/wp-content/uploads/2021/07/luxury-home-decor-in-a-lounge-and-kitchen-island.jpg",
+                "https://us.images.westend61.de/0000838688pw/modern-luxury-home-showcase-interior-living-room-with-ocean-view-HOXF02125.jpg",
+                "https://st.hzcdn.com/simgs/pictures/living-rooms/luxury-family-home-fishpools-furniture-store-and-interior-designers-img~1d7175170ae9cc37_4-1084-1-b361565.jpg"
+            ],
+            "postcode": "EC1"
+        },
+        {
+            "id": 5,
+            "name": "Family Bungalow",
+            "description": "A lovely bungalow with a large garden, ideal for families and outdoor activities.",
+            "longDescription": "This beautiful family bungalow offers four spacious bedrooms, a cozy living room, and a large, well-maintained garden. The property is perfect for families who love outdoor activities and entertaining guests. The garden includes a patio area and plenty of space for children to play. Inside, the bungalow features a modern kitchen, a dining area, and a bright living room with large windows. Located in a family-friendly neighborhood, the property is close to schools, parks, and local amenities. This charming bungalow offers a peaceful and comfortable living experience.",
+            "type": "house",
+            "price": 2000000,
+            "bedrooms": 4,
+            "date": "2024-01-20",
+            "coordinates": {
+                "latitude": 51.4945,
+                "longitude": -0.1829
+            },
+            "floor_plan":"images/5/floor_plan.jpg",
+            "images": [
+                "https://www.welcomefamily.co.uk/wp-content/uploads/2022/11/wavesurfer-lodge-outside.jpg",
+                "https://images.squarespace-cdn.com/content/v1/5b105551b27e39cee568415e/1548512650475-T1743KOPT6CBGB3343XQ/63539904.jpg?format=1000w",
+                "https://www.decorilla.com/online-decorating/wp-content/uploads/2021/07/luxury-home-decor-in-a-lounge-and-kitchen-island.jpg",
+                "https://us.images.westend61.de/0000838688pw/modern-luxury-home-showcase-interior-living-room-with-ocean-view-HOXF02125.jpg",
+                "https://st.hzcdn.com/simgs/pictures/living-rooms/luxury-family-home-fishpools-furniture-store-and-interior-designers-img~1d7175170ae9cc37_4-1084-1-b361565.jpg"
+            ],
+            "thumbnail": "images/5/thumbnail.jpg",
+            "postcode": "SW1"
+        },
+        {
+            "id": 6,
+            "name": "Penthouse Suite",
+            "description": "A luxurious penthouse with a private terrace and pool, offering breathtaking views.",
+            "longDescription": "This stunning penthouse suite is the epitome of luxury living. The property features three spacious bedrooms, a lavish living area, and a state-of-the-art kitchen. The highlight of this penthouse is the private terrace with a pool, offering panoramic views of the city. The interiors are designed with luxury and comfort in mind, featuring high-end finishes and modern amenities. The building includes additional perks such as a concierge service, a fitness center, and secure parking. Located in an upscale neighborhood, this penthouse is perfect for those seeking an exclusive and sophisticated living experience.",
+            "type": "flat",
+            "price": 5000000,
+            "bedrooms": 3,
+            "floor_plan":"images/6/floor_plan.jpg",
+            "date": "2024-07-13",
+            "coordinates": {
+                "latitude": 51.5074,
+                "longitude": -0.1278
+            },
+            "images": [
+                "https://cdn2.indagare.com/i/15962/w3840",
+                "https://images.squarespace-cdn.com/content/v1/5b105551b27e39cee568415e/1548512650475-T1743KOPT6CBGB3343XQ/63539904.jpg?format=1000w",
+                "https://www.decorilla.com/online-decorating/wp-content/uploads/2021/07/luxury-home-decor-in-a-lounge-and-kitchen-island.jpg",
+                "https://us.images.westend61.de/0000838688pw/modern-luxury-home-showcase-interior-living-room-with-ocean-view-HOXF02125.jpg",
+                "https://st.hzcdn.com/simgs/pictures/living-rooms/luxury-family-home-fishpools-furniture-store-and-interior-designers-img~1d7175170ae9cc37_4-1084-1-b361565.jpg"
+            ],
+            "thumbnail": "images/6/thumbnail.jpg",
+            "postcode": "KR36"
+        }
+    ]
+}

@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: "Poppins","sans-serif"
+}
+
+body{
+  background-color: #191A1A;
+}
+
+.container{
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-title h1{
+  font-weight: 300;
+  color: #fff;
+}
+
+.estate-data{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.estate{
+  max-width: 350px;
+  background-color: #1E1F1F;
+  padding: 20px 25px;
+  border-radius: 10px;
+  margin: 5px 10px 5px 0;
+  cursor: pointer;
+}
+
+.estate img{
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.estate-texts{
+  margin-top: -20px;
+}
+.estate h2{
+  color: #fff;
+  font-weight: 500;
+}
+
+.estate-texts p{
+  color: #f2f2f2;
+  font-weight: 300;
+  margin-top: -15px;
+}
+
+.estate-details{
+  display: flex;
+}
+
+.estate-features{
+  background-color: #191A1A;
+  padding:2px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  min-width: 70px;
+  border-radius: 10px;
+}
+
+.estate-features .value p{
+  margin-left: 5px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.price-text{
+  margin: 0px auto;
+  color: #fff;
+}
+
+.search-form{
+  background-color: #141313;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  width: 900px;
+}
+
+.search-form input{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 30px 15px;
+  color: #333;
+}
+
+.line{
+  background-color: #333;
+  width: 2px;
+  height: 50px;
+}
+
+button{
+  background-color: #1E1F1F;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* .navbar-separate{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+.right-content{
+  background-color: #1E1F1F;
+  height: 100vh;
+  width: 400px;
+  padding: 20px 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.favourites-bar .value{
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+.value p{
+  color: #fff;
+
+}
+
+.properties-layout{
+  padding: 40px 20px;
+}
+
+.property-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.property-desc{
+  margin: 0 100px;
+}
+
+.property-desc h1{
+  color: #fff;
+  font-size: 40px;
+}
+
+.property-desc p{
+  color: #f2f2f2;
+}
+
+.property-desc h2{
+  color: #fff;
+}
+
+.property-image img{
+  width: 550px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.primary-image{
+  position: relative;
+}
+
+.arrows{
+  position: absolute;
+  left: -20px;
+  right: -20px;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow{
+  background-color: #141313;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.sub-images img{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.favourites-btn{
+  background-color: #141313;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  min-width: 200px;
+  cursor: pointer;
+}
+
+.favourites-btn .value{
+  margin-left: 10px;
+  margin-top: -6px;
+}
+
+.property-tabs{
+  padding: 0 200px; 
+}
+
+.property-tabs-layout h2,p{
+  color: #fff;
+}
+
+.favourite-title h1{
+  color: #fff;
+}
+
+.favourite{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.fav-img img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.fav-data{
+  margin-left: 10px;
+}
+.fav-data h3{
+  color: #fff;
+  margin-bottom: -15px;
+}
+
+.fav-visual{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.delete-fav{
+  margin: 0px 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #191A1A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.floor-plan{
+  width: 800px;
+}
+
+
+/* Media Queries for screens smaller than iPad landscape (1024px) */
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .search-form {
+    width: 100%;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .search-form input {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .search-form .line {
+    width: 100%;
+    height: 1px;
+    margin: 5px 0;
+  }
+
+  .search-form button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  /* Results Section */
+  .estate-data {
+    justify-content: center;
+  }
+
+  .estate {
+    width: 100%;
+    max-width: none;
+    margin: 10px 0;
+  }
+
+  .estate img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .estate-details {
+    flex-wrap: wrap;
+  }
+
+  .estate-features {
+    margin: 5px;
+    flex-grow: 1;
+  }
+
+  /* Favorites Section */
+  .right-content {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  .favourites-content {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+
+  .favourite {
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+
+  .fav-visual {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .delete-fav {
+    margin: 5px;
+  }
+  .property-content {
+    flex-direction: column;
+  }
+
+  .property-desc {
+    margin: 20px 0;
+    padding: 0 15px;
+  }
+
+  .property-image img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+  }
+
+  .property-tabs {
+    padding: 0 15px;
+  }
+
+  .sub-images {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+  }
+
+  .sub-images img {
+    flex-shrink: 0;
+  }
+
+  .arrows {
+    left: 10px;
+    right: 10px;
+  }
+
+  .arrow {
+    height: 40px;
+    width: 40px;
+  }
+
+  .property-content {
+    flex-direction: column;
+  }
+
+  .property-image img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+  }
+
+  .property-desc {
+    margin: 20px 0;
+  }  
+  .sub-images img{
+    width: 170px;
+  }
+
+  .floor-plan{
+    width: 500px;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  .estate-features {
+    min-width: 100%;
+    margin: 5px 0;
+  }
+  
+  .property-desc h1 {
+    font-size: 24px;
+  }
+  
+  .favourite {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .delete-fav {
+    align-self: flex-end;
+    margin-top: -40px;
+  }
+  .sub-images img{
+    width: 70px;
+  }
+  .floor-plan{
+    width: 300px;
+  }
+}
